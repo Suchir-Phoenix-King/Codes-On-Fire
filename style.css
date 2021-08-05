@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding-top: 800px;
+    
+}
+
+.TBS{
+    width:175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size:30px;
+    line-height: 1.2;
+    font-family: monospace;
+    color:skyblue;
+}
+
+h2 {
+    font-size:30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+    color: darkblue;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    position: sticky;
+    list-style: none;
+    font-family: papyrus;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+    
+}
+
+.links {
+    float:left;
+    color:darkblue;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    border-bottom: solid;
+}
+
+.links:hover {
+    background-color:darkblue;
+    color:white;
+    border-bottom: dotted lightblue;
+}
+
+#bio {
+    text-align: center;
+    background-color: linear-gradient(peachpuff, yellow,orange,red);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#history {
+    margin-left: 550px;
+}
+
